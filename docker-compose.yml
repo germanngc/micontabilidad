@@ -1,0 +1,46 @@
+version: "3.7"
+services:
+    app:
+        build:
+            args:
+                user: ninacode
+                uid: 1000
+            context: ./
+            dockerfile: Dockerfile
+        image: micontabilidad
+        container_name: micontabilidad-app
+        restart: unless-stopped
+        working_dir: /var/www/
+        volumes:
+            - ./:/var/www
+        networks:
+            - micontabilidad
+    db:
+        image: mysql:8
+        container_name: micontabilidad-db
+        restart: unless-stopped
+        environment:
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+            MYSQL_USER: ${DB_USERNAME}
+            SERVICE_TAGS: dev
+            SERVICE_NAME: mysql
+        volumes:
+            - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+        networks:
+            - micontabilidad
+    nginx:
+        image: nginx:1.19-alpine
+        container_name: micontabilidad-nginx
+        restart: unless-stopped
+        ports:
+            - 8000:80
+        volumes:
+            - ./:/var/www
+            - ./docker-compose/nginx:/etc/nginx/conf.d
+        networks:
+            - micontabilidad
+networks:
+    micontabilidad:
+        driver: bridge
