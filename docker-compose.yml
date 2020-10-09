@@ -3,7 +3,7 @@ services:
     app:
         build:
             args:
-                user: ninacode
+                user: micontabilidad
                 uid: 1000
             context: ./
             dockerfile: Dockerfile
@@ -19,6 +19,8 @@ services:
         image: mysql:8
         container_name: micontabilidad-db
         restart: unless-stopped
+        ports:
+            - 3307:3306
         environment:
             MYSQL_DATABASE: ${DB_DATABASE}
             MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
