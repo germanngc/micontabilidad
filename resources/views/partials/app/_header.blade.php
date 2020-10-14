@@ -36,32 +36,35 @@
 				<nav class="primary-menu">
 					<ul class="menu-container">
 						<li class="menu-item">
-							<a class="menu-link" href="index.html"><div>@lang('global.menu.home')</div></a>
+							<a class="menu-link" href="/"><div>@lang('global.app.menu.home')</div></a>
 						</li>
 						<li class="menu-item">
-							<a class="menu-link" href="index.html"><div>@lang('global.menu.blog')</div></a>
+							<a class="menu-link" href="/blog"><div>@lang('global.app.menu.blog')</div></a>
 						</li>
 						<li class="menu-item">
-							<a class="menu-link" href="index.html"><div>@lang('global.menu.features.label')</div></a>
+							<a class="menu-link" href="/caracteristicas"><div>@lang('global.app.menu.features.label')</div></a>
 
 							<ul class="sub-menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="intro.html#section-niche"><div>@lang('global.menu.features.responsive')</div></a>
+									<a class="menu-link" href="/caracteristicas/#responsivo"><div>@lang('global.app.menu.features.responsive')</div></a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="intro.html#section-niche"><div>@lang('global.menu.features.retina')</div></a>
+									<a class="menu-link" href="/caracteristicas/#retina"><div>@lang('global.app.menu.features.retina')</div></a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="intro.html#section-niche"><div>@lang('global.menu.features.performance')</div></a>
+									<a class="menu-link" href="/caracteristicas/#rendimiento"><div>@lang('global.app.menu.features.performance')</div></a>
 								</li>
 							</ul>
+						</li>
+						<li class="menu-item">
+							<a class="menu-link" href="/login"><div>@lang('global.app.menu.login')</div></a>
 						</li>
 					</ul>
 
 				</nav><!-- #primary-menu end -->
 
 				<form class="top-search-form" action="search.html" method="get">
-					<input type="text" name="q" class="form-control" value="" placeholder="@lang('global.menu.search_bar')" autocomplete="off">
+					<input type="text" name="q" class="form-control" value="" placeholder="@lang('global.app.menu.search_bar')" autocomplete="off">
 				</form>
 			</div>
 		</div>
