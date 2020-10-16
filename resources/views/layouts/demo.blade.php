@@ -43,8 +43,8 @@
 							<!-- Logo
 							============================================= -->
 							<div id="logo">
-								<a href="index.html" class="standard-logo" data-dark-logo="{{ asset('assets/app/images/logo-dark.png') }}"><img src="{{ asset('assets/app/images/logo.png') }}" alt="Canvas Logo"></a>
-								<a href="index.html" class="retina-logo" data-dark-logo="{{ asset('assets/app/images/logo-dark@2x.png') }}"><img src="{{ asset('assets/app/images/logo@2x.png') }}" alt="Canvas Logo"></a>
+								<a href="index.html" class="standard-logo" data-dark-logo="{{ asset('assets/app/images/micontabilidad-logo-dark.png') }}"><img src="{{ asset('assets/app/images/micontabilidad-logo.png') }}" alt="Canvas Logo"></a>
+								<a href="index.html" class="retina-logo" data-dark-logo="{{ asset('assets/app/images/micontabilidad-logo-dark@2x.png') }}"><img src="{{ asset('assets/app/images/micontabilidad-logo@2x.png') }}" alt="Canvas Logo"></a>
 							</div><!-- #logo end -->
 
 							<div class="header-misc">

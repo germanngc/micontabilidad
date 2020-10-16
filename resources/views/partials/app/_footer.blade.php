@@ -13,20 +13,19 @@
 
 							<div class="widget clearfix">
 
-								<img src="{{ asset('assets/app/images/footer-widget-logo.png') }}" alt="Image" class="footer-logo">
+								<img src="{{ asset('assets/app/images/micontabilidad-footer-logo.png') }}" alt="Mi Contabilidad - Footer Logo" class="footer-logo">
 
 								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 
 								<div style="background: url('{{ asset('assets/app/images/world-map.png') }}') no-repeat center center; background-size: 100%;">
 									<address>
-										<strong>Headquarters:</strong><br>
-										795 Folsom Ave, Suite 600<br>
-										San Francisco, CA 94107<br>
+										<strong>Ubicaciœn:</strong><br>
+										Guadalajara<br>
+										Jalisco, México.<br>
 									</address>
 
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+52) 333 XXX YYYY<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@micontabilidad.xyz
 								</div>
 
 							</div>
@@ -37,16 +36,13 @@
 
 							<div class="widget widget_links clearfix">
 
-								<h4>Blogroll</h4>
+								<h4>Navigation</h4>
 
 								<ul>
-									<li><a href="https://codex.wordpress.org/">Documentation</a></li>
-									<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-									<li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
-									<li><a href="https://wordpress.org/support/">Support Forums</a></li>
-									<li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
-									<li><a href="https://wordpress.org/news/">Canvas Blog</a></li>
-									<li><a href="https://planet.wordpress.org/">Canvas Planet</a></li>
+									<li><a href="/">@lang('global.app.menu.home')</a></li>
+									<li><a href="/blog">@lang('global.app.menu.blog')</a></li>
+									<li><a href="/caracteristicas">@lang('global.app.menu.features.label')</a></li>
+									<li><a href="/login">@lang('global.app.menu.login')</a></li>
 								</ul>
 
 							</div>
@@ -202,8 +198,8 @@
 			<div class="row col-mb-30">
 
 				<div class="col-md-6 text-center text-md-left">
-					Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
-					<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+					Copyrights &copy; 2020 Todos los derechos reservados Mi Contabilidad.<br>
+					<div class="copyright-links"><a href="#">Condiciones de Uso</a> / <a href="#">Politica de Privacidad</a></div>
 				</div>
 
 				<div class="col-md-6 text-center text-md-right">
@@ -251,7 +247,7 @@
 
 					<div class="clear"></div>
 
-					<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+					<i class="icon-envelope2"></i> info@micontabilidad.xyz <span class="middot">&middot;</span> <i class="icon-headphones"></i> +52-333-XXX-YYYY <span class="middot">&middot;</span> <i class="icon-skype2"></i> MiContabilidadXYZ
 				</div>
 
 			</div>

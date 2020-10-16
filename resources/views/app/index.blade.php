@@ -29,7 +29,7 @@
 			<div class="col-sm-6 col-lg-4 text-center">
 				<a href="#"><img src="{{ asset('assets/app/images/appshowcase/s5.png') }}" alt="Image" class="bottommargin-sm"></a>
 				<h4>Powerful Performance</h4>
-				<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+				<p>Mi Contabilidad includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
 			</div>
 		</div>
 
@@ -44,7 +44,7 @@
 				<div class="col-lg-5">
 					<div class="heading-block topmargin-sm">
 						<h2>Awesome Scalable Apps</h2>
-						<span>Our Template acts &amp; behaves truly as a Canvas.</span>
+						<span>Our Template acts &amp; behaves truly as a Mi Contabilidad.</span>
 					</div>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem maiores pariatur voluptatem placeat laborum iste accusamus nam unde, iure id.</p>
@@ -119,7 +119,7 @@
 
 						<div class="fbox-content">
 							<h3>Powerful Performance</h3>
-							<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+							<p>Mi Contabilidad includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
 						</div>
 					</div>
 				</div>
@@ -145,7 +145,7 @@
 
 						<div class="fbox-content">
 							<h3>Awesome Mega menu</h3>
-							<p>Completely Customizable 2 Columns, 3 Columns, 4 Columns &amp; 5 Columns Mega Menus are available with Canvas.</p>
+							<p>Completely Customizable 2 Columns, 3 Columns, 4 Columns &amp; 5 Columns Mega Menus are available with Mi Contabilidad.</p>
 						</div>
 					</div>
 				</div>
