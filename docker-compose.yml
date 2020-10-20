@@ -29,7 +29,8 @@ services:
             SERVICE_TAGS: dev
             SERVICE_NAME: mysql
         volumes:
-            - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+            - ./docker-compose/mysql/init:/docker-entrypoint-initdb.d
+            - ./docker-compose/mysql/persistent:/var/lib/mysql
         networks:
             - micontabilidad
     nginx:

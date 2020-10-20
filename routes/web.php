@@ -14,21 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-	return view('app/index');
+	return view('public/index');
 });
 
 Route::get('/blog', function () {
-	return view('app/index');
+	return view('public/index');
 });
 
 Route::get('/caracteristicas', function () {
-	return view('app/index');
+	return view('public/index');
 });
 
-Route::get('/login', function () {
-	return view('app/login');
+/*Route::get('/login', function () {
+	return view('public/login');
 });
 
 Route::post('/login', function () {
 	return "Logged in...<br><pre>" . print_r($_REQUEST, true) . "</pre>";
-});
+});*/
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin', function () {
+    return view('app/index');
+})->name('admin');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

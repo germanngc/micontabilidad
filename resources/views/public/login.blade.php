@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.public')
 
 @section('description', trans('global.app.sections.login.description'))
 @section('featured_img', asset(trans('global.app.sections.login.featured_img')))
