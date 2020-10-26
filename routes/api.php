@@ -1,7 +1,9 @@
 <?php
 
 use App\Models\Category;
+use App\Models\User;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -29,4 +31,11 @@ Route::prefix('categories')->group(function() {
 	Route::post('/', [CategoryController::class, 'store']);
 	Route::put('/{category}', [CategoryController::class, 'update']);
 	Route::delete('/{category}', [CategoryController::class, 'delete']);
+});
+
+/**
+ * Users
+ */
+Route::prefix('users')->group(function() {
+	Route::get('/', [UserController::class, 'index']);
 });
